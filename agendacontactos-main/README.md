@@ -15,7 +15,7 @@
 ---
 
    ## 📁 Estructura del proyecto
-        ``` COMPANIESMANAGER/
+        ``` COMPANIAMANAGER/
                     ├── index.html
                     ├── app.js
                     ├── db.json
