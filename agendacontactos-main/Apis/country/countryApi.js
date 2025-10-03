@@ -25,3 +25,4 @@ export async function deleteCountry(id) {
     method: 'DELETE'
   }).then(res => res.json());
 }
+

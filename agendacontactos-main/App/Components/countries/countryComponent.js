@@ -4,9 +4,7 @@ export async function renderCountryTable() {
   const countries = await getCountries();
   const html = `
     <table class="table table-bordered">
-      <thead class="table-dark">
-        <tr><th>Nombre</th><th>Creado</th><th>Acciones</th></tr>
-      </thead>
+      <thead class="table-dark"><tr><th>Nombre</th><th>Creado</th><th>Acciones</th></tr></thead>
       <tbody>
         ${countries.map(c => `
           <tr>
@@ -24,7 +22,7 @@ export async function renderCountryTable() {
 
   window.updateCountryUI = async (id) => {
     const newName = document.getElementById(`name-${id}`).value;
-    await updateCountry(id, { name: newName, updatedAt: new Date().toISOString() });
+    await updateCountry(id, { name: newName });
     location.reload();
   };
 

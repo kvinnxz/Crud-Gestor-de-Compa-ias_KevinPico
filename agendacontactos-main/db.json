@@ -1,3 +1,26 @@
 {
-  "countries": []
+  "countries": [
+    { "id": 1, "name": "Colombia", "createdAt": "2025-10-01T08:00:00.000Z" },
+    { "id": 2, "name": "México", "createdAt": "2025-10-01T08:05:00.000Z" }
+  ],
+  "regions": [
+    { "id": 1, "name": "Santander", "countryId": 1, "createdAt": "2025-10-01T08:10:00.000Z" },
+    { "id": 2, "name": "Jalisco", "countryId": 2, "createdAt": "2025-10-01T08:15:00.000Z" }
+  ],
+  "cities": [
+    { "id": 1, "name": "Bucaramanga", "regionId": 1, "createdAt": "2025-10-01T08:20:00.000Z" },
+    { "id": 2, "name": "Guadalajara", "regionId": 2, "createdAt": "2025-10-01T08:25:00.000Z" }
+  ],
+  "companies": [
+    { "id": 1, "name": "TechNova", "cityId": 1, "createdAt": "2025-10-01T08:30:00.000Z" },
+    { "id": 2, "name": "InnovaCorp", "cityId": 2, "createdAt": "2025-10-01T08:35:00.000Z" }
+  ],
+  "branches": [
+    { "id": 1, "name": "TechNova Norte", "companyId": 1, "createdAt": "2025-10-01T08:40:00.000Z" },
+    { "id": 2, "name": "InnovaCorp Centro", "companyId": 2, "createdAt": "2025-10-01T08:45:00.000Z" }
+  ],
+  "contacts": [
+    { "id": 1, "name": "Laura Gómez", "branchId": 1, "createdAt": "2025-10-01T08:50:00.000Z" },
+    { "id": 2, "name": "Carlos Ruiz", "branchId": 2, "createdAt": "2025-10-01T08:55:00.000Z" }
+  ]
 }

@@ -1,8 +1,7 @@
-const ContactModel = {
-    nombreContacto: '',
-    apellidoContacto: '',
-    nroCelular: '',
-    emailContacto: '',
-    nroResidencia: ''
+export function createContactModel(name, branchId) {
+  return {
+    name,
+    branchId: parseInt(branchId),
+    createdAt: new Date().toISOString()
+  };
 }
-export default ContactModel;

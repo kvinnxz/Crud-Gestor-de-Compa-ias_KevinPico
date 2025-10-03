@@ -8,23 +8,63 @@
     <script defer type="module" src="app.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <div class="container">
-        <nav-menu></nav-menu>
-    </div>
-    <main>
-        <div class="container mt-3" id="mainContent">
-        </div>
-    </main>
-    <section class="card shadow-sm mb-5">
-  <div class="card-header bg-primary text-white">
-    <h2 class="mb-0">Gestión de Países</h2>
+<body class="bg-light">
+  <div class="container py-4">
+    <h1 class="text-center mb-5">COMPANIESMANAGER</h1>
+
+    <!-- Países -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-primary text-white"><h2 class="mb-0">Países</h2></div>
+      <div class="card-body">
+        <div id="country-form" class="mb-4"></div>
+        <div id="country-table"></div>
+      </div>
+    </section>
+
+    <!-- Regiones -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-success text-white"><h2 class="mb-0">Regiones</h2></div>
+      <div class="card-body">
+        <div id="region-form" class="mb-4"></div>
+        <div id="region-table"></div>
+      </div>
+    </section>
+
+    <!-- Ciudades -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-info text-white"><h2 class="mb-0">Ciudades</h2></div>
+      <div class="card-body">
+        <div id="city-form" class="mb-4"></div>
+        <div id="city-table"></div>
+      </div>
+    </section>
+
+    <!-- Empresas -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-warning text-dark"><h2 class="mb-0">Empresas</h2></div>
+      <div class="card-body">
+        <div id="company-form" class="mb-4"></div>
+        <div id="company-table"></div>
+      </div>
+    </section>
+
+    <!-- Sucursales -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-secondary text-white"><h2 class="mb-0">Sucursales</h2></div>
+      <div class="card-body">
+        <div id="branch-form" class="mb-4"></div>
+        <div id="branch-table"></div>
+      </div>
+    </section>
+
+    <!-- Contactos -->
+    <section class="card mb-4 shadow-sm">
+      <div class="card-header bg-dark text-white"><h2 class="mb-0">Contactos</h2></div>
+      <div class="card-body">
+        <div id="contact-form" class="mb-4"></div>
+        <div id="contact-table"></div>
+      </div>
+    </section>
   </div>
-  <div class="card-body">
-    <div id="country-form" class="mb-4"></div>
-    <hr>
-    <div id="country-table"></div>
-  </div>
-</section>
 </body>
 </html>
