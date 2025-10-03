@@ -15,54 +15,52 @@
 ---
 
    ## 📁 Estructura del proyecto
-        ```
- COMPANIESMANAGER/
-            ├── index.html
-            ├── app.js
-            ├── db.json
-            ├── App/
-            ├── Components/
-            │   ├── countries/
-            │   │   ├── regCountry.js
-            │   │   └── countryComponent.js
-            │   ├── regions/
-            │   │   ├── regRegion.js
-            │   │   └── regionComponent.js
-            │   ├── cities/
-            │   │   ├── regCity.js
-            │   │   └── cityComponent.js
-            │   ├── companies/
-            │   │   ├── regCompany.js
-            │   │   └── companyComponent.js
-            │   ├── branches/
-            │   │   ├── regBranch.js
-            │   │   └── branchComponent.js
-            │   └── contacts/
-            │       ├── regContact.js
-            │       └── contactComponent.js
-            ├── Models/
-            │   ├── countryModel.js
-            │   ├── regionModel.js
-            │   ├── cityModel.js
-            │   ├── companyModel.js
-            │   ├── branchModel.js
-            │   └── contactModel.js
-            └── Apis/
-                ├── country/
-                │   └── countryApi.js
-                ├── region/
-                │   └── regionApi.js
-                ├── city/
-                │   └── cityApi.js
-                ├── company/
-                │   └── companyApi.js
-                ├── branch/
-                │   └── branchApi.js
-                |── contact/
-                |    └── contactApi.js
-                    └── README.md               
-                                        
-```
+        ``` COMPANIESMANAGER/
+                    ├── index.html
+                    ├── app.js
+                    ├── db.json
+                    ├── App/
+                    ├── Components/
+                    │   ├── countries/
+                    │   │   ├── regCountry.js
+                    │   │   └── countryComponent.js
+                    │   ├── regions/
+                    │   │   ├── regRegion.js
+                    │   │   └── regionComponent.js
+                    │   ├── cities/
+                    │   │   ├── regCity.js
+                    │   │   └── cityComponent.js
+                    │   ├── companies/
+                    │   │   ├── regCompany.js
+                    │   │   └── companyComponent.js
+                    │   ├── branches/
+                    │   │   ├── regBranch.js
+                    │   │   └── branchComponent.js
+                    │   └── contacts/
+                    │       ├── regContact.js
+                    │       └── contactComponent.js
+                    ├── Models/
+                    │   ├── countryModel.js
+                    │   ├── regionModel.js
+                    │   ├── cityModel.js
+                    │   ├── companyModel.js
+                    │   ├── branchModel.js
+                    │   └── contactModel.js
+                    └── Apis/
+                        ├── country/
+                        │   └── countryApi.js
+                        ├── region/
+                        │   └── regionApi.js
+                        ├── city/
+                        │   └── cityApi.js
+                        ├── company/
+                        │   └── companyApi.js
+                        ├── branch/
+                        │   └── branchApi.js
+                        |── contact/
+                        |    └── contactApi.js
+                            └── README.md               
+ ```
 
 # 👨‍💻 Autor
 Kevin - 👉 [@kvinnxz](https://github.com/kvinnxz/Crud-Gestor-de-Compa-ias_KevinPico.git/)
